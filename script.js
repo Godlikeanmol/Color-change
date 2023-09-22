@@ -4,7 +4,6 @@ var rect = document.querySelector('.color');
             var rectlocation = rect.getBoundingClientRect();
             var left = et.x - rectlocation.left;
             var top = et.y -rectlocation.top;
-            console.log(right)
             document.querySelector("#box").innerHTML=left;
             document.querySelector("#box2").innerHTML=top;
 
